@@ -1,4 +1,4 @@
-from classes.nima_row import nima_row
+from myPackages.nima_emulation import nima_row
 import uuid
 import random
 
