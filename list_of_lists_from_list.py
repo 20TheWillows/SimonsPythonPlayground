@@ -12,7 +12,7 @@ def main():
                       random.randint(1,10)) for i in range(1,21) ]
     print(*NIMA_ROWS, sep='\n')
 
-    # Get a list of identifiers
+    # Get a list of list of arrtibutes
     the_list_of_lists = list(zip(*((row.identifier, row.float_val, row.string_val, row.int_val) for row in NIMA_ROWS)))
 
     ids = the_list_of_lists[0]
